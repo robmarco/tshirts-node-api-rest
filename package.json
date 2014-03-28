@@ -1,13 +1,14 @@
 {
-    "name": "ClickChic-Tshirts",
-    "version": "0.0.1",
-    "description": "API ClickChick Tshirts",
-    "author": "Roberto Marco",
-    "private": true,
-    "dependencies": {
-        "express": "3.3.x",
-        "mongoose": "3.6.x"
-    },
-    "license": "MIT"
+  "name": "ClickChic-Tshirts",
+  "version": "0.0.1",
+  "description": "API ClickChick Tshirts",
+  "author": "Roberto Marco",
+  "private": true,
+  "dependencies": {
+    "express": "3.3.x",
+    "mongoose": "3.6.x",
+    "redis": "0.10.1",
+    "async": "0.2.10"
+  },
+  "license": "MIT"
 }
-
