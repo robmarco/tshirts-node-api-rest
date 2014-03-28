@@ -24,6 +24,7 @@ function errorHandler(err, req, res, next) {
 }
 
 routes = require('./routes/tshirts')(app);
+routes = require('./routes/karts')(app);
 
 // Connection to MongoDB
 mongoose.connect('mongodb://localhost/tshirts', function(err, res){
